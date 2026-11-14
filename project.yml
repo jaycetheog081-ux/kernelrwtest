@@ -1,15 +1,22 @@
 name: ANEProbe
+
 options:
   bundleIdPrefix: org.research
   deploymentTarget:
     iOS: "15.0"
+
 targets:
   ANEProbe:
     type: application
     platform: iOS
+
     sources:
       - path: App
       - path: Sources
+
+    dependencies:
+      - sdk: IOKit.framework
+
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: org.research.aneprobe
