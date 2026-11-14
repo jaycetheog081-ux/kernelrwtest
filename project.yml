@@ -24,6 +24,7 @@ targets:
         INFOPLIST_KEY_CFBundleDisplayName: ANE Probe
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
         INFOPLIST_KEY_UIUserInterfaceStyle: Dark
+        GENERATE_INFOPLIST_FILE: YES
         TARGETED_DEVICE_FAMILY: "1,2"
         SWIFT_VERSION: "5.0"
         CODE_SIGNING_ALLOWED: NO
