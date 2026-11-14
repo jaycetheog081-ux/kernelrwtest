@@ -1,0 +1,22 @@
+name: ANEProbe
+options:
+  bundleIdPrefix: org.research
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  ANEProbe:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+      - path: Sources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.research.aneprobe
+        PRODUCT_NAME: ANEProbe
+        INFOPLIST_KEY_CFBundleDisplayName: ANE Probe
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIUserInterfaceStyle: Dark
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SWIFT_VERSION: "5.0"
+        CODE_SIGNING_ALLOWED: NO
